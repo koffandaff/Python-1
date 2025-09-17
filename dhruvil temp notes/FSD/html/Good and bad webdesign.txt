@@ -1,0 +1,18 @@
+Concept of effective web design:
+	> Purpose & Plan
+	> Simplicity
+	> Readability
+	> Responsiveness
+	> Simple Navigation
+	> Call to Action (Buttons that cease to exist for the sake of proper workflow)
+	> load speed
+[ These parameter helps in SEO optimization]
+
+Concept of Shit webdesign:
+	> Clutter Layout
+	> poor readability
+	> bad responsiveness
+	> poor navigation
+	> Unattractive 
+	> Expectation failure 
+	> Horizontal Scroll bar (looks shitty)	 
