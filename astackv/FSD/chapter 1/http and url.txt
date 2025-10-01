@@ -1,0 +1,27 @@
+HTTP- Hyper text transport protocol 
+
+Stateless: Doesn't remember the prior state of the user
+
+connectionless:  Being connectionless refers to the fact that a connection's lifecycle starts with the request and ends with the response, and no connection is preserved after the response from the server.
+
+media independent: It's as it states lol
+
+--> How it works:
+Request--						Response:
+							-----------			
+--------						Status line ( like 200[ok], 404[not found], etc)
+Request line ( method type: get, post etc)		----------------------------
+------------						header
+Header (meta data)					-----------------------------
+------------						Blank line
+blank line						-----------------------------	
+------------						Body 
+body ( version, )					---------------------
+----------------
+
+
+--> URL(uniform resource allocator):						[ 	Path	    ] [ query string    ] [ fragment]
+	http(protocol)://www(subdomain).google(main-domain).com(:403(port_number)/service/subservice? name=test&pass=123 #about
+
+Concept of effective web design:
+	> 
