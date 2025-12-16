@@ -1,0 +1,7 @@
+This file will contan data of 470.txt and 471.txt: 
+THIS WAS NOT UPPER CASE BEFORE THE PROGRAM TRY IT YOUTSELF
+SECOND LINE FOR TEST
+This content will be copied and saved to 471copy.txt so yeah go on mf
+
+this too
+and this too
