@@ -1,0 +1,159 @@
+Matplotlib func
+	- marker
+	- c: line color
+	- ms = marker size
+	- mfc = marker inner color
+	- mec = marker outer border color
+	- ls =line style
+	- lw = line width
+	- title
+	- xlable
+	- ylabel
+	- fontdict= dict contains family, color, size used in title
+	- plt.grid() = shws grid (axis=y then horizontal, axis=x then vertical grid, lw= width of line
+	- loc
+	- plt.colorbar() = shows colorbar used 
+	- plt.legends() = shows legends, atr: title and loc   
+	- plt.fill_between(x,y) atr: color , alpha, where (comaprison0 , lablel , interpolate
+	-plt.axis() to hide the lines 
+
+
+plots type
+	- x,y ... line plots 
+	-x only	  only
+	- scatter (x,y): atr: colors (list), s(list), cmap(plural form of color and 1-100 value in colors), vmin, vmax (for cmap), alpha(opacity), ec= edge color, 
+	- bar (x,y) , atr: color, width, height
+	- barh (x,y) [same atr as bar]
+	- Histogram (x) [idk how this works], atr: bins, orientation
+	- piechart (y): atr: lables(list), colors(list), explode(list)[default 0], shadow(Boolean), startangle, counterclock,autopct (to show in percentage distribution), 
+	- stack 
+
+
+
+### **1. Core Configuration & Structure**
+
+* 
+**`st.set_page_config`**: The first command to run; sets the browser tab title (`page_title`), favicon (`page_icon`), and layout width (`centered` or `wide`).
+
+
+* 
+**`st.sidebar`**: Used to place widgets (like filters or navigation) in a collapsible left panel.
+
+
+* 
+**`st.columns(n)`**: Splits the page into `n` horizontal sections for side-by-side layouts.
+
+
+* 
+**`st.expander("Title")`**: Creates a collapsible container for secondary information.
+
+
+
+### **2. Text & Content Display**
+
+* 
+**`st.title()`**: Displays the largest, main heading for the page.
+
+
+* 
+**`st.header()`**: Displays a standard section heading.
+
+
+* 
+**`st.subheader()`**: Displays a subsection heading.
+
+
+* 
+**`st.write()`**: The "Swiss Army Knife" function; can display text, variables, dictionaries, and charts.
+
+
+* 
+**`st.markdown()`**: Displays text using Markdown formatting for bold, italics, or custom headers.
+
+
+* 
+**`st.code()`**: Displays code blocks with syntax highlighting.
+
+
+
+### **3. Input Widgets (User Interaction)**
+
+* 
+**`st.text_input()`**: Provides a single-line field for text entry.
+
+
+* 
+**`st.text_area()`**: Provides a multi-line field for longer messages or paragraphs.
+
+
+* 
+**`st.number_input()`**: Captures numeric values; allows setting minimum, maximum, and default values.
+
+
+* 
+**`st.slider()`**: Allows users to select a value by sliding a knob across a range.
+
+
+* 
+**`st.selectbox()`**: A dropdown menu for picking one option from a list.
+
+
+* 
+**`st.multiselect()`**: Allows users to select multiple options from a predefined list.
+
+
+* 
+**`st.radio()`**: Display options as radio buttons for single selection.
+
+
+* 
+**`st.checkbox()`**: Returns a Boolean (`True`/`False`) when clicked.
+
+
+* 
+**`st.button()`**: Executes a block of code only when the user clicks it.
+
+
+
+### **4. Media & File Handling**
+
+* 
+**`st.file_uploader()`**: Allows users to upload external files like CSVs, PDFs, or images.
+
+
+* 
+**`st.image()`**: Displays images (local paths or uploaded files) on the app.
+
+
+* 
+**`st.download_button()`**: Provides a button for users to download files from the app.
+
+
+
+### **5. Data Visualization**
+
+* 
+**`st.line_chart()`**: Directly creates a line chart without needing Matplotlib.
+
+
+* 
+**`st.pyplot(fig)`**: The bridge function to display complex charts created with the Matplotlib library.
+
+
+
+### **6. Status & Feedback**
+
+* 
+**`st.success()`**: Displays a green box for positive results or completed tasks.
+
+
+* 
+**`st.info()`**: Displays a blue box for helpful information or status updates.
+
+
+* 
+**`st.warning()`**: Displays a yellow box for cautionary messages.
+
+
+* 
+**`st.error()`**: Displays a red box for critical errors or invalid inputs.
